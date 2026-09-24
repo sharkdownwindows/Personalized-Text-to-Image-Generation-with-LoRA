@@ -1,0 +1,1 @@
+run_id,concept_id,rank,data_size,sample_count,missing_count,dino_subject_similarity_mean,dino_subject_similarity_sd,clip_prompt_similarity_mean,clip_prompt_similarity_sd

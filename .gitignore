@@ -1,0 +1,57 @@
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.*
+secrets.*
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Private datasets (keep only directory markers and manifests)
+data/raw/**
+!data/raw/.gitkeep
+data/processed/**
+!data/processed/.gitkeep
+data/eval_refs/**
+!data/eval_refs/.gitkeep
+data/private/
+
+# Run artifacts, checkpoints, and generated batches
+artifacts/**
+!artifacts/.gitkeep
+checkpoints/
+generated/
+generated_images/
+outputs/
+**/generations/
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+
+# Model and dataset caches
+.cache/
+.huggingface/
+huggingface/
+model_cache/
+models/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

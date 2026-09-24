@@ -1,0 +1,18 @@
+# Top-level dependency input from the planning specification.
+# Resolve and pin versions only after the Python/CUDA pilot; requirements.lock
+# is intentionally pending until that can be done with the chosen lock tool.
+accelerate
+diffusers
+gradio
+matplotlib
+numpy
+pandas
+peft
+Pillow
+plotly
+pytest
+PyYAML
+safetensors
+seaborn
+torch
+transformers
